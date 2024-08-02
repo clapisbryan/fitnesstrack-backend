@@ -1,0 +1,44 @@
+Object: ExpressJS API - Inventory Management
+
+1. What is the main objective?
+   - Create a simple fitness tracker
+
+2. Who are the target users of the application?
+    - user
+
+3. What are the key features?
+    - User Registration
+    - User Login
+    - Authentication user can add workout
+    - Authentication user can get/view workout
+    - Authentication user can update workout
+    - Authentication user can delete workout
+    - Authentication user can view status workout
+
+4. What structure of data in the application we need to store and manage?
+
+    - User
+        - Email
+        - Password
+
+5. Specific Techinal Requirements
+    - ExpressJS API
+    - MongoDB/Mongoose
+    - REST API
+
+6. Other Requirements
+    - JWT Token for Authentication
+    - bcrypt
+
+7. What are your possible routes?
+    - This should depend on your models
+    - User
+        POST - /users/register
+        POST - /users/login
+    - Workout
+        POST - /workouts/addWorkout
+        GET - /workouts/getMyWorkouts
+        PATCH - /workouts/updateWorkout
+        DELETE - /workouts/deleteWorkout
+        PATCH - /workouts/completeWorkoutStatus
+    
